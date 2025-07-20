@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 🧠 Debatrix – Real-Time AI Debating Platform
 
-## Project info
+**Debatrix** is a full-stack real-time debating platform where users engage in live debates with an **AI video persona** or other users. Designed for students, learners, and debate enthusiasts, it brings together cutting-edge AI, live transcription, and performance feedback in an immersive, educational experience. Whether you're practicing at a **school or college level**, Debatrix helps you improve argument delivery, logic, and public speaking skills.
 
-**URL**: https://lovable.dev/projects/2f11aaef-4cf2-4743-b4ed-3f84f9c9d80d
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+### 🎤 Real-Time AI Debates
+- Debate with an **AI video persona** powered by **GPT-4o** and rendered using D-ID or Synthesia.
+- Choose between **School** and **College** levels.
+- Get structured AI responses with speaking turns and argument logic.
 
-**Use Lovable**
+### 📝 Live Transcription & Feedback
+- Real-time **speech-to-text** powered by **Whisper API**.
+- Tracks speech pacing, pauses, filler words, and clarity.
+- Delivers **visual performance feedback** on the side panel instantly.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2f11aaef-4cf2-4743-b4ed-3f84f9c9d80d) and start prompting.
+### 📊 Leaderboards & Progress Tracking
+- Compete on real-time leaderboards based on skill and debate outcomes.
+- Personal dashboards with win/loss ratios, growth charts, and skill-level history.
+- Auto-generated resume of debate journey.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🧠 AI Coaching & Topic Generation
+- Get intelligent hints and structured coaching during prep time.
+- Instant counter-arguments by AI opponents.
+- Support for multiple formats: **Lincoln-Douglas**, **British Parliamentary**, and **Policy Debate**.
 
-**Use your preferred IDE**
+### 🎥 Peer Debating (Coming Soon)
+- Real-time video rooms with **WebRTC**.
+- Match with peers based on skill and availability.
+- Full moderator tools and judging panels.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💻 Tech Stack
 
-Follow these steps:
+| Layer           | Tools/Technologies                          |
+|----------------|---------------------------------------------|
+| Frontend        | React.js, Tailwind CSS, WebRTC              |
+| Backend         | Node.js, Express.js, Socket.io              |
+| AI/NLP          | OpenAI GPT-4o, Whisper API                  |
+| Authentication  | Firebase Authentication                     |
+| Database        | MongoDB / PostgreSQL                        |
+| Hosting         | Vercel (frontend), Railway / Render (API)   |
+| AI Video        | D-ID API or Synthesia (for avatar)          |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Setup Instructions
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/debatrix.git
+cd debatrix
 ```
+📅 Project Status
+✅ Firebase Authentication
+✅ Real-Time Transcription (Whisper)
+✅ User Leaderboard
+🔄 AI Video Debater (In Progress)
+🔄 Live Peer Debate Rooms (In Progress)
+🔄 AI Scoring System & Judge Feedback
 
-**Edit a file directly in GitHub**
+🗓️ Roadmap
+ User login/signup with Firebase Auth
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+ Whisper-based speech-to-text with live updates
 
-**Use GitHub Codespaces**
+ Real-time leaderboard for skill tracking
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ AI Persona Debater (video + GPT-4o logic)
 
-## What technologies are used for this project?
+ Peer-to-peer live debate rooms
 
-This project is built with:
+ Post-debate reports and portfolio generation
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🤖 How It Works
+The user selects debate topic and level (School or College).
 
-## How can I deploy this project?
+A live AI persona joins the session and responds in real time.
 
-Simply open [Lovable](https://lovable.dev/projects/2f11aaef-4cf2-4743-b4ed-3f84f9c9d80d) and click on Share -> Publish.
+Transcription panel shows live analysis of user's speech.
 
-## Can I connect a custom domain to my Lovable project?
+Post-debate feedback is generated based on fluency, pauses, logic, and content.
 
-Yes, you can!
+The user's rank updates in the leaderboard.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+👨‍💻 Tools Used This Week
+React + Tailwind for frontend design
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Whisper API for transcription integration
+
+Firebase Auth for secure login
+
+GPT-4o for debate response logic
+
+MongoDB (planned) for user and debate session data
+
+📚 Resources Used So Far
+Frontend built with React.js + Tailwind CSS
+
+Firebase Authentication for user management
+
+All other features (video avatar, peer debate, scoring engine) are in progress
+
+✨ Inspiration
+Debatrix was born from the idea of making debate practice accessible, smart, and engaging. We believe AI can coach and simulate high-quality debates, especially for students who want to improve their communication and thinking skills.
+
