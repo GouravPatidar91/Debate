@@ -26,7 +26,7 @@
 - Instant counter-arguments by AI opponents.
 - Support for multiple formats: **Lincoln-Douglas**, **British Parliamentary**, and **Policy Debate**.
 
-### 🎥 Peer Debating (Coming Soon)
+### 🎥 Peer Debating 
 - Real-time video rooms with **WebRTC**.
 - Match with peers based on skill and availability.
 - Full moderator tools and judging panels.
@@ -58,8 +58,8 @@ cd debatrix
 ✅ Firebase Authentication
 ✅ Real-Time Transcription (Whisper)
 ✅ User Leaderboard
-🔄 AI Video Debater (In Progress)
-🔄 Live Peer Debate Rooms (In Progress)
+🔄 AI Video Debater 
+🔄 Live Peer Debate Room
 🔄 AI Scoring System & Judge Feedback
 
 🗓️ Roadmap
@@ -102,7 +102,7 @@ Frontend built with React.js + Tailwind CSS
 
 Firebase Authentication for user management
 
-All other features (video avatar, peer debate, scoring engine) are in progress
+All other features (video avatar, peer debate, scoring engine) 
 
 ✨ Inspiration
 Debatrix was born from the idea of making debate practice accessible, smart, and engaging. We believe AI can coach and simulate high-quality debates, especially for students who want to improve their communication and thinking skills.
